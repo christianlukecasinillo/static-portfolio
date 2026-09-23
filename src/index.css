@@ -1,12 +1,13 @@
 :root {
-  --bg: #0f1417;
-  --surface: #161d21;
-  --surface-2: #1c2429;
-  --border: #2a3438;
-  --text: #e8ece9;
-  --text-muted: #8a9a96;
-  --accent: #4fd1a5;
-  --accent-amber: #f2b84b;
+  --bg: #f6f8f7;
+  --surface: #ffffff;
+  --surface-2: #edf2f0;
+  --border: #dbe3e0;
+  --text: #16211f;
+  --text-muted: #5c6b67;
+  --accent: #1f9d73;
+  --accent-amber: #b8791a;
+  --on-accent: #ffffff;
   --font-head: 'Space Grotesk', sans-serif;
   --font-mono: 'IBM Plex Mono', monospace;
 }
@@ -36,7 +37,7 @@ a { color: inherit; }
   position: sticky;
   top: 0;
   z-index: 20;
-  background: rgba(15, 20, 23, 0.9);
+  background: rgba(246, 248, 247, 0.88);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--border);
 }
@@ -89,7 +90,7 @@ a { color: inherit; }
 .status-dot {
   width: 7px; height: 7px; border-radius: 50%;
   background: var(--accent);
-  box-shadow: 0 0 0 3px rgba(79, 209, 165, 0.15);
+  box-shadow: 0 0 0 3px rgba(31, 157, 115, 0.15);
 }
 .hero h1 {
   font-size: clamp(2.2rem, 4.5vw, 3.4rem);
@@ -123,7 +124,7 @@ a { color: inherit; }
   color: var(--text);
   display: inline-block;
 }
-.btn-primary { background: var(--accent); color: #0f1417; border-color: var(--accent); font-weight: 500; }
+.btn-primary { background: var(--accent); color: var(--on-accent); border-color: var(--accent); font-weight: 500; }
 .btn-primary:hover { opacity: 0.88; }
 .btn-ghost:hover { border-color: var(--accent); color: var(--accent); }
 
@@ -260,7 +261,7 @@ form.contact-form { display: flex; flex-direction: column; gap: 14px; }
   width: fit-content;
   transition: background 0.15s, color 0.15s;
 }
-.submit-btn:hover { background: var(--accent); color: #0f1417; }
+.submit-btn:hover { background: var(--accent); color: var(--on-accent); }
 .form-note { font-family: var(--font-mono); font-size: 12px; color: var(--accent); min-height: 16px; }
 
 footer {

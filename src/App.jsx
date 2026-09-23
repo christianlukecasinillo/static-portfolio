@@ -49,7 +49,7 @@ const activities = [
 const socials = [
   { label: 'Facebook', href: 'https://facebook.com/christianlukecasinillo2' },
   { label: 'Instagram', href: 'https://instagram.com/saint_lukee' },
-  { label: 'X (Twitter)', href: 'https://x.com/chrstnlkcsnll' },
+  { label: 'TikTok', href: 'https://www.tiktok.com/@st_lukeee' },
 ]
 
 function Nav() {
@@ -57,7 +57,7 @@ function Nav() {
   return (
     <div className="topbar">
       <div className="topbar-inner">
-        <div className="brand">casinillo<span>.qa</span></div>
+        <div className="brand">Casinillo<span> / Portfolio</span></div>
         <ul className="topnav">
           {links.map((l) => (
             <li key={l}><a href={`#${l.toLowerCase()}`}>{l}</a></li>
@@ -80,7 +80,7 @@ function Hero() {
         <div className="role">Quality Assurance Tester</div>
         <p className="tagline">Passionate about delivering quality software — from test case design to defect resolution.</p>
         <div className="hero-actions">
-          <a className="btn btn-primary" href="/Casinillo-CV.pdf" download>Download CV</a>
+          <a className="btn btn-primary" href="/UpdatedCasinillo_CV.pdf" download>Download CV</a>
           <a className="btn btn-ghost" href="#contact">Get in touch</a>
         </div>
       </div>
@@ -105,7 +105,7 @@ function About() {
   return (
     <section id="about" className="section container">
       <div className="section-head">
-        <span className="suite-name">01 · background</span>
+        <span className="suite-name">01 · </span>
         <h2>About me</h2>
       </div>
       <div className="about-body">
@@ -131,7 +131,7 @@ function Skills() {
   return (
     <section id="skills" className="section container">
       <div className="section-head">
-        <span className="suite-name">02 · capabilities</span>
+        <span className="suite-name">02 · </span>
         <h2>Skills</h2>
       </div>
       <div className="skills-grid">
@@ -156,7 +156,7 @@ function Experience() {
   return (
     <section id="experience" className="section container">
       <div className="section-head">
-        <span className="suite-name">03 · service record</span>
+        <span className="suite-name">03 · </span>
         <h2>Work Experience</h2>
       </div>
       <div>
@@ -179,7 +179,7 @@ function Activities() {
   return (
     <section id="activities" className="section container">
       <div className="section-head">
-        <span className="suite-name">04 · beyond the desk</span>
+        <span className="suite-name">04 · </span>
         <h2>Extra-Curricular Activities</h2>
       </div>
       <div className="activities-grid">
@@ -228,7 +228,7 @@ function Contact() {
   return (
     <section id="contact" className="section container" style={{ borderBottom: 'none' }}>
       <div className="section-head">
-        <span className="suite-name">05 · find me online</span>
+        <span className="suite-name">05 · </span>
         <h2>Get in touch</h2>
       </div>
       <div className="contact-grid">
