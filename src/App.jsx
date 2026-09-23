@@ -74,7 +74,7 @@ function Hero() {
       <div>
         <div className="status-line">
           <span className="status-dot" />
-          OPEN TO RELOCATE — CANDIDATE PROFILE
+          OPEN TO RELOCATE
         </div>
         <h1>Christian Luke B. Casinillo</h1>
         <div className="role">Quality Assurance Tester</div>
